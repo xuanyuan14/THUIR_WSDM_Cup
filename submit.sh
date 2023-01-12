@@ -1,0 +1,2 @@
+#!/bin/bash
+nohup python submit.py --gpu_device 0 --lr 1e-5 --emb_dim 768 --nlayer 12 --nhead 12 --dropout 0.0 --buffer_size 20 --eval_batch_size 128 --save_step 5000 --eval_step 5000 --n_queries_for_each_gpu 8 --num_candidates 10 --init_parameters ./model/ckpt-2022-12-29/save_steps154500_10.06768.model --test_annotate_path ./data/annotate_data/valid_data_f.txt --result_path ./model/ckpt-2022-12-29/best_results/result_valid_10.06768.tsv > log/submit.log 2>&1 &

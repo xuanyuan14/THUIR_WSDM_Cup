@@ -1,0 +1,2 @@
+#!/bin/bash
+nohup python finetune.py --gpu_device 9 --lr 1e-5 --emb_dim 768 --nlayer 18 --nhead 12 --finetune_epoch 20 --dropout 0.1 --buffer_size 20 --eval_batch_size 168 --save_step 500 --eval_step 500 --init_parameters ./model/pretrain-2022-12-24/save_steps10000_0.29492_0.280334.model  --valid_annotate_path ./data/annotate_data/finetune_data.txt --test_annotate_path ./data/annotate_data/valid_data_f.txt > log/finetune.log 2>&1 &

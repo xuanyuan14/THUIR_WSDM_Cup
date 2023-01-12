@@ -1,0 +1,2 @@
+#!/bin/bash
+nohup python -m paddle.distributed.launch --selected_gpus='5,9' pretrain.py --mask_rate 0.4 --init_parameters ./model/baidu_ultr_12l_12h_768e.model --log_interval 20 --lr 5e-6 --n_gpus 2 --emb_dim 768 --nlayer 18 --nhead 12 --dropout 0.1 --buffer_size 2000 --max_steps 50000 --train_datadir ./data/click_data/ --valid_annotate_path ./data/annotate_data/valid_data_f.txt --save_step 5000 --eval_step 1000 --train_batch_size 138 > log/pretrain.log 2>&1 &
