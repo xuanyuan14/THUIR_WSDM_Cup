@@ -1,7 +1,7 @@
 ## WSDM Cup 2023 -- THUIR
 This codebase contains source-code that we use to participate in the [WSDM Cup 2023](https://aistudio.baidu.com/aistudio/competition/detail/536/0/leaderboard).  
 
-
+## Features
 Final features that we use include:
 
 | **Feature ID** |   **Feature Name** |  **Feature Description** |   
@@ -27,8 +27,11 @@ Final features that we use include:
 | 19  |  bm25_title |  BM25 score of title using Pyserini (k1=1.6, b=0.87) |  
 | 20  |  bm25_content |  BM25 score of content using Pyserini (k1=1.6, b=0.87) |  
 
+
+## Results
 For Task 2: Pretraining for Web Search, we used all the aforementioned features except 14 and achieved ```DCG=10.04097``` on the leaderboard.  
 
 As for Task 1: Unbiased Learning to Rank, we used feature 2-13 & 15-19 and finally achieved ```DCG=9.91182``` on the leaderboard.  
 
+## More
 More details of our experiments will come soon in our competition paper. Please stay tuned.
