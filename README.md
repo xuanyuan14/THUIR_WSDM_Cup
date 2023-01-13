@@ -30,13 +30,12 @@ Final features that we use include:
 
 ## Results
 For Task 2: Pretraining for Web Search, we used all the aforementioned features except 14 and achieved ```DCG=10.04097``` on the leaderboard.  
-
 As for Task 1: Unbiased Learning to Rank, we used feature 2-13 & 15-19 and finally achieved ```DCG=9.91182``` on the leaderboard.  
 
 ## Download  
 You can download the best checkpoint we have trained through the following entries:  
 Best checkpoint with pre-training (ctr+mlm loss): [save_steps27000_6.31586.model](https://cloud.tsinghua.edu.cn/f/310db76c238f42edbdef/?dl=1).  
-Best Checkpoint with fine-tuning (ctr loss): [save_steps143000_10.08166.model](https://cloud.tsinghua.edu.cn/f/004aca88e7ba4c62b539/?dl=1).
+Best checkpoint with fine-tuning (ctr loss): [save_steps143000_10.08166.model](https://cloud.tsinghua.edu.cn/f/004aca88e7ba4c62b539/?dl=1).
 
 ## More
-More details of our experiments will come soon in our competition paper. Please stay tuned.
+More details of our experiments will come soon in our competition papers. Please stay tuned.
