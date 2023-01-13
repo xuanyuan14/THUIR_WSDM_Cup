@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## WSDM Cup 2023 -- THUIR
 This codebase contains source-code that we use to participate in the [WSDM Cup 2023](https://aistudio.baidu.com/aistudio/competition/detail/536/0/leaderboard).  
 
