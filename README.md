@@ -36,4 +36,3 @@ As for Task 1: Unbiased Learning to Rank, we used feature 2-13 & 15-19 and final
 
 ## More
 More details of our experiments will come soon in our competition paper. Please stay tuned.
-=======
